@@ -6,7 +6,7 @@ function categories_ProyectoCallescopiar_3(feature, value, size, resolution, lab
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case 'Avenida':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(205,208,211,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3.8}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3.8}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
